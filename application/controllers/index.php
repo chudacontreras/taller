@@ -14,7 +14,7 @@ class Index extends CI_Controller{
     function index() {
         $data['title'] = '.::.Taller PHP.::.';
         $data['main_content'] = 'index';
-        $this->load->view('include/template', $data);
+        $this->load->view('include/template_principal', $data);
     }
 
 }
