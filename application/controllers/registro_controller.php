@@ -62,8 +62,10 @@ class Registro_controller extends CI_Controller{
                                
                                 
                         }
+
                          
                         
+
         }
     }
 }
