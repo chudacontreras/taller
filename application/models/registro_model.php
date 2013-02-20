@@ -1,6 +1,7 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 class Registro_model extends CI_Model{
     
+    
     public function __construct() {
         parent::__construct();
     }
@@ -17,4 +18,5 @@ class Registro_model extends CI_Model{
         );
         return $this->db->insert('usuarios', $data);	
     }
+   
 }

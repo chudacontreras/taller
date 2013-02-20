@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <!--Llammamos a nuestra hoja de estilos con esta línea-->
-<link rel="stylesheet" type="text/css" href="http://taller.com/css/estilos.css" />
+<link rel="stylesheet" type="text/css" href="http://127.0.0.1/taller/css/estilos.css" />
 <title>Formulario de registro</title>
 </head>
 <body>

@@ -58,7 +58,7 @@ class Registro_controller extends CI_Controller{
 				$this->email->message('<h2>' . $nombre . ' gracias por registrarte</h2><hr><br><br>
 				Tu nombre de usuario es: ' . $nick . '.<br>Tu password es: ' . $password);
 				$this->email->send();
-                               // $this->bien();
+                                $this->bien();
                                
                                 
                         }
