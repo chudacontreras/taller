@@ -56,7 +56,10 @@ class Registro_controller extends CI_Controller{
                                 
                         }
                         function bien(){
-                            $this->load->view('bien');
+                        	data['title'] = 'Formulario de registro';
+				$data['head'] = 'registro Exitoso.';
+				$this->load->view('bien');
+                            //$this->load->view('bien');
                         }
         }
     }
