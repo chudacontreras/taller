@@ -1,0 +1,64 @@
+#cabecera{
+    background:  url(../images/img01.jpg) repeat-x;
+    font: normal 11px Tahoma, Arial, Helvetica, sans-serif;
+    color: #666666;
+    height: 450px;
+    }
+    
+#logo{
+    margin-top: 10px;
+    font-size: 40px;
+    color: #000000;
+    font-weight: bold;
+        
+    }
+#mision{
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+        
+    }
+/*+++++++++++++++++++++++++++++*/
+#form_login, #form_register{
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    padding: 20px 30px;
+    width: 240px;
+    height: 200px;
+    background: #1E5799;
+    
+}
+#form_login label, #form_register label{
+    display: block;
+    padding: 3px 0;
+}
+#password, #username, #email, #name, #re_password{
+    display: block;
+    margin-bottom: 5px;
+    width: 200px;
+}
+.texto_login{
+    color: #ffe883;
+    font-size: 14px;
+}
+.opciones_login{
+    float: right;
+}
+.link_register a, .link_retry_password a, .link_login a{
+    color: #ffe883;
+    text-decoration: none;
+}
+#form_register{
+    height: 500px;
+    font-size: 12px;
+    font-style: normal;
+    
+}
+input type-submit{
+    margin-top: 5px;
+}
+.error{
+    color: #E13300;
+    font-size: 12px;
+    font-weight: bold;
+}
