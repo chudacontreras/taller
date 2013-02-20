@@ -7,7 +7,10 @@ class Hola_mundo extends CI_Controller{
     }
     
     public function index(){
-        $this->load->view('include/hola_mundo_view');
+ $data['title'] = 'Acceso a Track Star';
+        $data['main_content'] = 'users/login';
+        $this->load->view('includes/template',$data);        
+//$this->load->view('includes/hola_mundo_view');
         //echo 'Hola Mundo desde el Controlador';
     }
     
