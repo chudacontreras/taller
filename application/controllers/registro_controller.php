@@ -17,6 +17,12 @@ class Registro_controller extends CI_Controller{
 		$data['head'] = 'Regístrate desde aquí';
 		$this->load->view('registro_view', $data);
     }
+    function bien(){
+                         $data['title'] = 'Formulario de registro';
+                         $data['head'] = 'registro Exitoso.';
+                         $this->load->view('bien');
+                            //$this->load->view('bien');
+                        }
     
     function nuevo_usuario(){
         if(isset($_POST['grabar']) and $_POST['grabar'] == 'si')
@@ -52,12 +58,12 @@ class Registro_controller extends CI_Controller{
 				$this->email->message('<h2>' . $nombre . ' gracias por registrarte</h2><hr><br><br>
 				Tu nombre de usuario es: ' . $nick . '.<br>Tu password es: ' . $password);
 				$this->email->send();
-                                $this->load-controller('regostro_controller, bien()');
+                               // $this->bien();
+                               
                                 
                         }
-                        function bien(){
-                            $this->load->view('bien');
-                        }
+                         
+                        
         }
     }
 }
