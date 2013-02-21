@@ -109,7 +109,7 @@ $autoload['language'] = array();
 |
 */
 
-$autoload['model'] = array();
+$autoload['model'] = array('Bitacora_Model','Validaciones_Model');
 
 
 /* End of file autoload.php */
